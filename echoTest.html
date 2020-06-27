@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/helper.js">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+     <h1>Echo Test using Web Socket</h1>
+     <table>
+         <tr>
+             <td class="bold">Location:  </td>
+              <td>
+                  <input type="text" id="location" value="wss://echo.websocket.org" readonly/>
+              </td>
+            </tr>
+        <tr>
+            <td></td>
+            <td style="display: flex;">
+                <input class="sizechange" id="ConnectButton" type="button" value="Connect" onclick="OnConnectClick()"/>
+                <input class="sizechange"  id = "DisconnectButton" type="button" value="Disconnect" disabled=true  onclick="OnDisconnectClick()"/>
+            </td>
+        </tr>
+     </table>
+<br><br><br><br>
+     <!-- send message table -->
+     <table>
+         <tr>
+             <td width="200px" class="bold">Message:  </td>
+             <td>
+                 <input type="text" id = "message"/>
+             </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+                <input class="sizechange" id="SendButton" type="button" value="Send message" disabled=true onclick="OnSendClick()">
+                
+            </td>
+         </tr>
+
+     </table>
+     <br>
+     <br>
+     <textarea id="IncomingMsgOutput" cols="20" rows="10" disabled=true></textarea>
+</body>
+
+</html>
