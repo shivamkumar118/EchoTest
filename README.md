@@ -1,1 +1,1 @@
-# Javascript-projects
+Hello all . I am Shivam Kumar currently pursuing B.Tech in Maulana Abul Kalam Azad University of Technology,West Bengal with Computer Science and Engineering stream. I am a very beginner in Web Developement and trying to learn as much as i can .    
