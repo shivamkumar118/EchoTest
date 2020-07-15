@@ -1,1 +1,1 @@
-Hello all . I am Shivam Kumar currently pursuing B.Tech in Maulana Abul Kalam Azad University of Technology,West Bengal with Computer Science and Engineering stream. I am a very beginner in Web Developement and trying to learn as much as i can .    
+A simple HTML, CSS and Javascript "Echo Test" project which sends a message to the server using WebSocket and gets the echo of message back including the number of words.  
